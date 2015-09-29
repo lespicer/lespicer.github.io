@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Ultra);
+@import url(https://fonts.googleapis.com/css?family=Asap);
+
+body {
+font-size: 16px;
+background-color: #f1;
+}
+
+h1 {
+	font-family: 'Ultra', georgia, serif; 
+	font-weight: 400;
+	font-size: 64px;
+	color: #0167af;
+}
+
+h2 {
+	font-family: georgia;
+	font-size: 48px; 
+	color: #262223;
+}
+
+h3 {
+	font-family: 'Asap', arial, sans-serif;
+	font-size: 32px;
+	color: #262223;
+}
+
+h4 {
+	font-family: 'Asap', arial, sans-serif;
+	font-size: 16px;
+	color: #262223;
+	font-weight: bold;
+}
+
+nav {
+	font-family: 'Asap', arial, sans-serif;
+	width: 500px;
+	padding: 16px;
+}
+
+p {
+	font-family: 'Asap', arial, sans-serif;
+	font-color: #262223;
+}
+
+div {
+	font-family: 'Asap', arial, sans-serif;
+	background-color: #e2e3e5;
+	/*width: 200px;*/
+	/*height: 300px;*/
+	/*margin: 20px;*/
+}
+
+footer{
+	padding: 80px;
+	background-color: #0167AF;
+	/*text appears blurry, don't use font weight in h4?*/
+}
+
+#services{
+	background-color: #84b7db;
+
+}
+
+#projects{
+background-color: #0c71b8;
+}
+
+#contact{
+	background-color: #f1;
+}
