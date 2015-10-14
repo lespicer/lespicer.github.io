@@ -96,9 +96,17 @@ footer{
 #social-content{
 }
 
+.col{
+
+}
+
 #hero{
-	background-color: #e6d4d7;
-	background-size: cover;
+	/*background-color: #e6d4d7;*/
+	/*border:1px solid #ff0000;*/
+	display: block;
+	width: 100%;
+	/*overflow: hidden;*/
+	height: 500px;
 }
 
 #introduction{
