@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Asap);
+
+*{
+	margin: 0;
+	padding: 0;	
+	box-sizing: border-box;
+}
+
+body {
+font-size: 16px;
+font-family: 'Asap', arial, sans-serif;
+color: #262223;
+background-color: white;
+}
+
+h1 {
+font-size: 36px;
+color: #0167AF;
+text-align: center;
+}
+
+h2 {
+font-size: 24px;
+color: #0167AF;
+text-align: center;
+}
+
+p {
+	line-height: 1.5;
+}
+
+a {
+	color: #0167AF;
+	text-decoration: none
+}
+
+a:hover {
+	color: #84B7DB;
+}
+
+nav{
+	float: right;
+	font-size: 20px;
+	padding: 40px;
+	text-align: right;
+}
+
+ul{
+	list-style: none;
+}
+
+li{
+	display: inline-block;
+}
+
+footer{
+	font-size: 14px;
+	padding: 25px;
+	margin: 0px;
+	text-align: center;
+}
+
+/*#topwrap {
+	background-color: white;
+}*/
+
+#splash{
+	background: url(../assets/hero_photo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 50vh;
+}
+
+#introduction{
+	margin: auto;
+	padding: 3em;
+	width: 40em; 
+}
+
+#photolinks {
+	margin: auto;
+	max-width: 75em;
+}
+
+.photoboxes{
+	padding:.5em;
+	width: 25%;
+	float: left;
+}
+
+.photoboxes img {
+	width:100%;
+	overflow: hidden;
+}
+
+#contact{
+	color: #0167AF;
+	text-align: center;
+}
+
+#projects{
+	background-color: #262223
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}

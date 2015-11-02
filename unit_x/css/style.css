@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Asap);
+
+*{
+	margin: 0;
+	padding: 0;	
+	box-sizing: border-box;
+}
+
+body {
+font-size: 16px;
+font-family: 'Asap', arial, sans-serif;
+color: #262223;
+text-align: center;
+}
+
+/*h1 {
+background-color: yellow;
+}*/
+
+h2 {
+font-size: 2em;
+text-transform: uppercase;
+/*background-color: red;*/
+}
+
+p {
+	line-height: 1.5;
+}
+
+nav {
+	float: right;
+	font-size: 1.5em;
+	padding: 40px;
+}
+
+a {
+	color: #262223;
+	text-decoration: none;
+	margin: 1.5em;
+	display: inline-block;
+}
+
+a:hover {
+	color: #84B7DB;
+}
+
+li{
+	list-style: none;
+	/*display: inline-block;*/
+}
+
+footer{
+	font-size: 14px;
+	background-color:#0167AF;
+}
+
+#logo{
+	float:left;
+	padding: 20px;
+}
+
+#splash{
+	background: url(../assets/electricheader.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 50vh;
+}
+
+#introduction{
+	margin: auto;
+	padding: 3em;
+	background-color: white;
+}
+
+#logoheader{
+	margin: auto;
+	padding: 3em;
+	background-color: purple;
+}
+
+#introtext{
+	margin: auto;
+	padding: 3em;
+	background-color: yellow;
+}
+
+#work{
+	/*width:960px;*/
+	margin: auto;
+	padding: 3em;
+	background-color: #F1F1F1;
+}
+
+
+#Automotive{
+	float:left;
+	width:280px;
+	padding:10px;
+	margin:10px;
+}
+
+#Banks{
+	float:left;
+	width:280px;
+	padding:10px;
+	margin:10px;
+}
+
+#Churches{
+	float:left;
+	width:280px;
+	padding:10px;
+	margin:10px;
+}
+
+
+
+/*#photolinks {
+	margin: auto;
+	max-width: 75em;
+}
+
+.photoboxes{
+	padding:.5em;
+	width: 25%;
+	float: left;
+}
+
+.photoboxes img {
+	width:100%;
+	overflow: hidden;
+}*/
+
+#contact{
+	margin: auto;
+	padding: 3em;
+	background-color:#0167AF;
+}
+
+#contactbold{
+	text-weight: 800;
+	color: white;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
