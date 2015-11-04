@@ -10,13 +10,14 @@
 body{
 font-size: 16px;
 font-family: 'Merriweather Sans', sans-serif;
-color: #262223;
+color: #505153;
 text-align: center;
 }
 
 h1{
 font-size: 3em;
 font-family: 'Ramaraja', serif;
+color: #0167AF;
 /*background-color: yellow;*/
 }
 
@@ -24,6 +25,16 @@ h2{
 font-size: 2em;
 text-transform: uppercase;
 /*background-color: red;*/
+}
+
+h3{
+	color: #0167AF;
+	padding: 1.5em;
+}
+
+h4{
+	color: #505153;
+	padding: 1.5em;
 }
 
 p{
@@ -37,7 +48,7 @@ p{
 nav{
 	float: right;
 	font-size: 1.5em;
-	padding: 40px;
+	padding: 3%;
 }
 
 a{
@@ -57,9 +68,11 @@ li{
 }
 
 footer{
-	font-size: 14px;
-	background-color:white;
-	padding: 1.5em;
+	font-size:.8em;
+	background-color: #505153;
+	padding: 1em;
+	width: 100%;
+	color: white;
 }
 
 #logo{
@@ -75,48 +88,21 @@ footer{
 	height: 50vh;
 }
 
-#services{
-	padding: 1em;
-}
-
 #introtitle{
-	/*width: 0;*/
 	margin: auto;
-	padding: 2em;
+	padding: 3em;
 }
 
 #introtext{
-	/*width: 0;*/
-	padding: 2em;
-	background-color: #0167AF;
+	padding: 4em;
+	background-color: #505153;
+	color: white;
 }
 
 #work{
-	/*width:960px;*/
 	margin: auto;
-	padding: 10em;
+	padding: 2em;
 	background-color: #F1F1F1;
-}
-
-#Automotive{
-	float:left;
-	width:280px;
-	padding:10px;
-	margin:10px;
-}
-
-#Banks{
-	float:left;
-	width:280px;
-	padding:10px;
-	margin:10px;
-}
-
-#Churches{
-	float:left;
-	width:280px;
-	padding:10px;
-	margin:10px;
 }
 
 /*#photolinks {
@@ -135,11 +121,11 @@ footer{
 	overflow: hidden;
 }*/
 
-#whoweare{
+/*#whoweare{
 	margin: auto;
 	padding: 4em;
 	background-color: #F1F1F1;
-}
+}*/
 
 #contact{
 	margin: auto;
@@ -159,4 +145,36 @@ footer{
 	content: " ";
 	clear: both;
 	height: 0;
+}
+
+@media only screen and (max-width: 1024px){
+}
+
+
+@media only screen and (max-width: 768px){
+	header{
+		top:0%;
+	}
+	h1, h2, h3, h4 {
+		line-height: .5em;
+		text-align: center;
+	}
+
+
+@media only screen and (max-width: 640px){
+	h1, h3, h4{
+		line-height: 1.5em;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 320px){
+	h1, h3, h4{
+		line-height: 1.5em;
+		text-align: center;
+	}
+
+	#introtitle {
+		display:none;
+	}
 }
